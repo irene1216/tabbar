@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/profile/profile"
+  ],
+  "tabBar": {
+    "color": "#CDCDCD",
+    "selectedColor": "#000000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "images/home_grey.png",
+      "selectedIconPath": "images/home_black.png"
+    }, {
+      "pagePath": "pages/profile/profile",
+      "text": "Profile",
+      "iconPath": "images/profile_grey.png",
+      "selectedIconPath": "images/profile_black.png"
+    }
+  ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tabbar Example",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

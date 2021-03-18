@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+<view class="title">Welcome to my profile.</view>
+<view class="content">
+  <view class="what-is-this">This is an example to show you how to setup the tabbar</view>
+  <view class="instruction">Please refer to the code in app.json</view>
+  <view class="tips">In app.json, you can also set the top navbar title and background color!</view>
+</view>
